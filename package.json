@@ -1,0 +1,40 @@
+{
+  "name": "pmarket-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "auto": "electron . auto",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . --out=release --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.2.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "child_process": "^1.0.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "node-network-bandwidth-monitor": "^1.0.3",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "ps-node": "^0.1.6",
+    "regedit": "^5.1.2",
+    "socket.io": "^4.7.0",
+    "systeminformation": "^5.18.4",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  }
+}
